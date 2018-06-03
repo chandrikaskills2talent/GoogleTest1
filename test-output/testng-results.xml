@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isFacebook – log in or sign up]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62963" started-at="2018-05-26T13:55:08Z" finished-at="2018-05-26T13:56:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62963" started-at="2018-05-26T13:55:08Z" finished-at="2018-05-26T13:56:11Z">
+      <class name="test.test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.test1@ed9d034]" name="launchBrowser" is-config="true" duration-ms="36934" started-at="2018-05-26T13:55:08Z" finished-at="2018-05-26T13:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:test.test1@ed9d034]" name="testFacebookHome" duration-ms="23355" started-at="2018-05-26T13:55:45Z" finished-at="2018-05-26T13:56:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed isFacebook – log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.test1@ed9d034]" name="closeBrowser" is-config="true" duration-ms="2636" started-at="2018-05-26T13:56:08Z" finished-at="2018-05-26T13:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
